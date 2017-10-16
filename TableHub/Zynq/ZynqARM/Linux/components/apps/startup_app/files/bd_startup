@@ -1,0 +1,36 @@
+#!/bin/sh
+set -x
+echo "bdSound startup script begin"
+
+echo "installing bus_module"
+
+insmod /lib/modules/3.17.0-xilinx/extra/bus_module.ko
+mknod /dev/bus0 c 245 0
+mknod /dev/bus1 c 245 1
+mknod /dev/bus2 c 245 2
+
+insmod /lib/modules/3.17.0-xilinx/extra/audio_to_ps.ko
+mknod /dev/audio_to_ps c 244 0
+
+insmod /lib/modules/3.17.0-xilinx/extra/audio_from_ps.ko
+mknod /dev/audio_from_ps c 243 0
+
+
+insmod /lib/modules/3.17.0-xilinx/extra/version_module.ko
+mknod /dev/version_module c 242 0
+
+insmod /lib/modules/3.17.0-xilinx/extra/audio_router.ko
+mknod /dev/audio_router c 241 0
+
+echo 192 > /sys/class/gpio/export
+echo out > /sys/class/gpio/gpio192/direction 
+ 
+echo 193 > /sys/class/gpio/export
+echo out > /sys/class/gpio/gpio193/direction 
+
+echo 1 > /sys/class/gpio/gpio192/value 
+echo 0 > /sys/class/gpio/gpio193/value 
+
+#/media/rootfs/table_hub_app &
+
+echo "bdSound startup script end"

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="9956091420534fs"></ZoomStartTime>
+      <ZoomEndTime time="10009981715894fs"></ZoomEndTime>
+      <Cursor1Time time="10001000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="165"></NameColumnWidth>
+      <ValueColumnWidth column_width="233"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/tb/uut_tx/send_bit" type="logic">
+      <obj_property name="ElementShortName">send_bit</obj_property>
+      <obj_property name="ObjectShortName">send_bit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/send_bit_nzri" type="logic">
+      <obj_property name="ElementShortName">send_bit_nzri</obj_property>
+      <obj_property name="ObjectShortName">send_bit_nzri</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/counter_bit" type="other">
+      <obj_property name="ElementShortName">counter_bit</obj_property>
+      <obj_property name="ObjectShortName">counter_bit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/send_word_5b" type="array">
+      <obj_property name="ElementShortName">send_word_5b[9:0]</obj_property>
+      <obj_property name="ObjectShortName">send_word_5b[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/counter_sub_word" type="other">
+      <obj_property name="ElementShortName">counter_sub_word</obj_property>
+      <obj_property name="ObjectShortName">counter_sub_word</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/counter_channel" type="other">
+      <obj_property name="ElementShortName">counter_channel</obj_property>
+      <obj_property name="ObjectShortName">counter_channel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/next_word_5b" type="array">
+      <obj_property name="ElementShortName">next_word_5b[9:0]</obj_property>
+      <obj_property name="ObjectShortName">next_word_5b[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/current_word_5b" type="array">
+      <obj_property name="ElementShortName">current_word_5b[39:0]</obj_property>
+      <obj_property name="ObjectShortName">current_word_5b[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/get_new_data" type="logic">
+      <obj_property name="ElementShortName">get_new_data</obj_property>
+      <obj_property name="ObjectShortName">get_new_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/next_word_4b5b" type="array">
+      <obj_property name="ElementShortName">next_word_4b5b[39:0]</obj_property>
+      <obj_property name="ObjectShortName">next_word_4b5b[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/next_word_4b" type="array">
+      <obj_property name="ElementShortName">next_word_4b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">next_word_4b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/creator_data" type="array">
+      <obj_property name="ElementShortName">creator_data[3:0]</obj_property>
+      <obj_property name="ObjectShortName">creator_data[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/creator_parity_audio" type="logic">
+      <obj_property name="ElementShortName">creator_parity_audio</obj_property>
+      <obj_property name="ObjectShortName">creator_parity_audio</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/data_r" type="array">
+      <obj_property name="ElementShortName">data_r[10:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">data_r[10:0][3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/valid_r" type="array">
+      <obj_property name="ElementShortName">valid_r[10:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_r[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/mute_r" type="array">
+      <obj_property name="ElementShortName">mute_r[10:0]</obj_property>
+      <obj_property name="ObjectShortName">mute_r[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/wclk_r" type="array">
+      <obj_property name="ElementShortName">wclk_r[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wclk_r[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/wclk" type="logic">
+      <obj_property name="ElementShortName">wclk</obj_property>
+      <obj_property name="ObjectShortName">wclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/audio_r" type="array">
+      <obj_property name="ElementShortName">audio_r[10:0][23:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_r[10:0][23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/data_r" type="array">
+      <obj_property name="ElementShortName">data_r[10:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">data_r[10:0][3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/valid_r" type="array">
+      <obj_property name="ElementShortName">valid_r[10:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_r[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/mute_r" type="array">
+      <obj_property name="ElementShortName">mute_r[10:0]</obj_property>
+      <obj_property name="ObjectShortName">mute_r[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/audio_r1" type="array">
+      <obj_property name="ElementShortName">audio_r1[10:0][23:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_r1[10:0][23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/data_r1" type="array">
+      <obj_property name="ElementShortName">data_r1[10:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">data_r1[10:0][3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/valid_r1" type="array">
+      <obj_property name="ElementShortName">valid_r1[10:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_r1[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_tx/mute_r1" type="array">
+      <obj_property name="ElementShortName">mute_r1[10:0]</obj_property>
+      <obj_property name="ObjectShortName">mute_r1[10:0]</obj_property>
+   </wvobject>
+</wave_config>

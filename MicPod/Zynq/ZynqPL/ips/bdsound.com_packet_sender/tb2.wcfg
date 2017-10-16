@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1479947364000fs"></ZoomStartTime>
+      <ZoomEndTime time="1512797364001fs"></ZoomEndTime>
+      <Cursor1Time time="1487447364000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="104"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="68" />
+   <wvobject fp_name="/tb2/block_ram_circular/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_circular/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_circular/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_circular/addra" type="array">
+      <obj_property name="ElementShortName">addra[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_circular/dina" type="array">
+      <obj_property name="ElementShortName">dina[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_circular/clkb" type="logic">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_circular/enb" type="logic">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_circular/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[11:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_circular/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/circular_bram_w_clk" type="logic">
+      <obj_property name="ElementShortName">circular_bram_w_clk</obj_property>
+      <obj_property name="ObjectShortName">circular_bram_w_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/circular_bram_w_en" type="logic">
+      <obj_property name="ElementShortName">circular_bram_w_en</obj_property>
+      <obj_property name="ObjectShortName">circular_bram_w_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/circular_bram_w_wen" type="array">
+      <obj_property name="ElementShortName">circular_bram_w_wen[0:0]</obj_property>
+      <obj_property name="ObjectShortName">circular_bram_w_wen[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/circular_bram_w_addr" type="array">
+      <obj_property name="ElementShortName">circular_bram_w_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">circular_bram_w_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/circular_bram_w_data" type="array">
+      <obj_property name="ElementShortName">circular_bram_w_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">circular_bram_w_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/circular_bram_r_clk" type="logic">
+      <obj_property name="ElementShortName">circular_bram_r_clk</obj_property>
+      <obj_property name="ObjectShortName">circular_bram_r_clk</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/circular_bram_r_en" type="logic">
+      <obj_property name="ElementShortName">circular_bram_r_en</obj_property>
+      <obj_property name="ObjectShortName">circular_bram_r_en</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/circular_bram_r_addr" type="array">
+      <obj_property name="ElementShortName">circular_bram_r_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">circular_bram_r_addr[11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/circular_bram_r_data" type="array">
+      <obj_property name="ElementShortName">circular_bram_r_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">circular_bram_r_data[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_recover/read_circular_state" type="other">
+      <obj_property name="ElementShortName">read_circular_state</obj_property>
+      <obj_property name="ObjectShortName">read_circular_state</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_recover/crc_number_byte" type="array">
+      <obj_property name="ElementShortName">crc_number_byte[15:0]</obj_property>
+      <obj_property name="ObjectShortName">crc_number_byte[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_recover/crc_val_aux" type="array">
+      <obj_property name="ElementShortName">crc_val_aux[7:0]</obj_property>
+      <obj_property name="ObjectShortName">crc_val_aux[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_recover/index_r" type="array">
+      <obj_property name="ElementShortName">index_r[11:0]</obj_property>
+      <obj_property name="ObjectShortName">index_r[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_recover/index_w" type="array">
+      <obj_property name="ElementShortName">index_w[11:0]</obj_property>
+      <obj_property name="ObjectShortName">index_w[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_recover/circular_present" type="array">
+      <obj_property name="ElementShortName">circular_present[11:0]</obj_property>
+      <obj_property name="ObjectShortName">circular_present[11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_recover/packet_len_aux" type="array">
+      <obj_property name="ElementShortName">packet_len_aux[15:0]</obj_property>
+      <obj_property name="ObjectShortName">packet_len_aux[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_recover/read_data_aux" type="array">
+      <obj_property name="ElementShortName">read_data_aux[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_aux[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_recover/wclk_r" type="array">
+      <obj_property name="ElementShortName">wclk_r[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wclk_r[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_recover/data_byte_0_r" type="array">
+      <obj_property name="ElementShortName">data_byte_0_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_byte_0_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_recover/data_valid_0_r" type="logic">
+      <obj_property name="ElementShortName">data_valid_0_r</obj_property>
+      <obj_property name="ObjectShortName">data_valid_0_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_recover/data_byte_1_r" type="array">
+      <obj_property name="ElementShortName">data_byte_1_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_byte_1_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_recover/data_valid_1_r" type="logic">
+      <obj_property name="ElementShortName">data_valid_1_r</obj_property>
+      <obj_property name="ObjectShortName">data_valid_1_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_recover/data_byte_2_r" type="array">
+      <obj_property name="ElementShortName">data_byte_2_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_byte_2_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_recover/data_valid_2_r" type="logic">
+      <obj_property name="ElementShortName">data_valid_2_r</obj_property>
+      <obj_property name="ObjectShortName">data_valid_2_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_recover/write_on_circular" type="logic">
+      <obj_property name="ElementShortName">write_on_circular</obj_property>
+      <obj_property name="ObjectShortName">write_on_circular</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_recover/counter_w" type="other">
+      <obj_property name="ElementShortName">counter_w</obj_property>
+      <obj_property name="ObjectShortName">counter_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_recover/read_addr_aux" type="array">
+      <obj_property name="ElementShortName">read_addr_aux[11:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr_aux[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_recover/counter_read_aux" type="array">
+      <obj_property name="ElementShortName">counter_read_aux[11:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_read_aux[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover/addra" type="array">
+      <obj_property name="ElementShortName">addra[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[9:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover/dina" type="array">
+      <obj_property name="ElementShortName">dina[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover/clkb" type="logic">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover/enb" type="logic">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[9:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_send/packet4_bram_s_clk" type="logic">
+      <obj_property name="ElementShortName">packet4_bram_s_clk</obj_property>
+      <obj_property name="ObjectShortName">packet4_bram_s_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_send/packet4_bram_s_rst" type="logic">
+      <obj_property name="ElementShortName">packet4_bram_s_rst</obj_property>
+      <obj_property name="ObjectShortName">packet4_bram_s_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_send/packet4_bram_s_en" type="logic">
+      <obj_property name="ElementShortName">packet4_bram_s_en</obj_property>
+      <obj_property name="ObjectShortName">packet4_bram_s_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_send/packet4_bram_s_addr" type="array">
+      <obj_property name="ElementShortName">packet4_bram_s_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">packet4_bram_s_addr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_send/packet4_bram_s_dout" type="array">
+      <obj_property name="ElementShortName">packet4_bram_s_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">packet4_bram_s_dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_send/packet4_valid" type="logic">
+      <obj_property name="ElementShortName">packet4_valid</obj_property>
+      <obj_property name="ObjectShortName">packet4_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_send/packet4_len" type="array">
+      <obj_property name="ElementShortName">packet4_len[15:0]</obj_property>
+      <obj_property name="ObjectShortName">packet4_len[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/uut_send/packet4_got" type="logic">
+      <obj_property name="ElementShortName">packet4_got</obj_property>
+      <obj_property name="ObjectShortName">packet4_got</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover_f/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover_f/rsta" type="logic">
+      <obj_property name="ElementShortName">rsta</obj_property>
+      <obj_property name="ObjectShortName">rsta</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover_f/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover_f/wea" type="array">
+      <obj_property name="ElementShortName">wea[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover_f/addra" type="array">
+      <obj_property name="ElementShortName">addra[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover_f/dina" type="array">
+      <obj_property name="ElementShortName">dina[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover_f/douta" type="array">
+      <obj_property name="ElementShortName">douta[31:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover_f/clkb" type="logic">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover_f/rstb" type="logic">
+      <obj_property name="ElementShortName">rstb</obj_property>
+      <obj_property name="ObjectShortName">rstb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover_f/enb" type="logic">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover_f/web" type="array">
+      <obj_property name="ElementShortName">web[3:0]</obj_property>
+      <obj_property name="ObjectShortName">web[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover_f/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover_f/dinb" type="array">
+      <obj_property name="ElementShortName">dinb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dinb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_recover_f/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[31:0]</obj_property>
+   </wvobject>
+</wave_config>

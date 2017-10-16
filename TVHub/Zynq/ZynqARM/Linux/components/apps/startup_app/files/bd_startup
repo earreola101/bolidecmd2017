@@ -1,0 +1,24 @@
+#!/bin/sh
+set -x
+echo "bdSound startup script begin"
+
+echo "installing bus_module"
+
+insmod /lib/modules/3.17.0-xilinx/extra/bus_module.ko
+mknod /dev/bus0 c 245 0
+
+insmod /lib/modules/3.17.0-xilinx/extra/version_module.ko
+mknod /dev/version_module c 244 0
+
+echo 192 > /sys/class/gpio/export
+echo out > /sys/class/gpio/gpio192/direction 
+ 
+echo 193 > /sys/class/gpio/export
+echo out > /sys/class/gpio/gpio193/direction 
+
+echo 1 > /sys/class/gpio/gpio192/value 
+echo 0 > /sys/class/gpio/gpio193/value 
+
+#/media/rootfs/tv_hub_app &
+
+echo "bdSound startup script end"

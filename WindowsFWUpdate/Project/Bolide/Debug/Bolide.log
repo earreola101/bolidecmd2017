@@ -1,0 +1,145 @@
+﻿Build started 10/16/2017 2:32:02 PM.
+     1>Project "C:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\Bolide.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Bolide.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\Bolide.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Rcc'ing bolide.qrc...
+         Moc'ing cmdGridWidget.h...
+         Moc'ing bolide.h...
+         Moc'ing bdSerialPort.h...
+         Moc'ing bdAboutWidget.h...
+         Moc'ing bdGroupBox.h...
+         Moc'ing bdLimiterWidget.h...
+         Moc'ing bdParametricEqualizerWidget.h...
+         Moc'ing bdRecvAudioProcTabWidget.h...
+         Moc'ing bdComboBox.h...
+         Moc'ing bdEnableComboBox.h...
+         Moc'ing bdDoubleSpinBox.h...
+         Moc'ing bdSpinBox.h...
+         Moc'ing bdHighPassWidget.h...
+         Moc'ing ecCommandWidget.h...
+         Moc'ing ecCommandLogTabWidget.h...
+         Moc'ing ecLogWidget.h...
+         Moc'ing updateTrackingDialog.h...
+         Moc'ing fwUpdateWidget.h...
+         Moc'ing fileLoaderDialog.h...
+         Moc'ing debugWidget.h...
+         Moc'ing consoleWidget.h...
+         Moc'ing comWidget.h...
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\..\..\..\TableHub\Zynq\ZynqARM\ThirdPartyLib\ASDSP /IC:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\..\..\..\TableHub\Zynq\ZynqARM\ThirdPartyLib /IC:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\..\..\..\Utility\FWgenerate /IC:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\..\..\..\TableHub\Zynq\ZynqARM\Application /IC:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\..\..\..\TableHub\Zynq\ZynqARM\CustomDriver /IC:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\..\..\Src\inc /I.\GeneratedFiles /I. /IC:\Qt\Qt5.4.0\5.4\msvc2010_opengl\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.4.0\5.4\msvc2010_opengl\include\QtCore /IC:\Qt\Qt5.4.0\5.4\msvc2010_opengl\include\QtGui /IC:\Qt\Qt5.4.0\5.4\msvc2010_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\TableHub\Zynq\ZynqARM\Application\byte_queue.c ..\..\..\TableHub\Zynq\ZynqARM\Application\command_gen_dec.c ..\..\..\TableHub\Zynq\ZynqARM\Application\command_queue.c ..\..\Src\command_parser.c /MP 
+         byte_queue.c
+         command_gen_dec.c
+         command_queue.c
+         command_parser.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\..\..\..\TableHub\Zynq\ZynqARM\ThirdPartyLib\ASDSP /IC:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\..\..\..\TableHub\Zynq\ZynqARM\ThirdPartyLib /IC:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\..\..\..\Utility\FWgenerate /IC:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\..\..\..\TableHub\Zynq\ZynqARM\Application /IC:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\..\..\..\TableHub\Zynq\ZynqARM\CustomDriver /IC:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\..\..\Src\inc /I.\GeneratedFiles /I. /IC:\Qt\Qt5.4.0\5.4\msvc2010_opengl\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.4.0\5.4\msvc2010_opengl\include\QtCore /IC:\Qt\Qt5.4.0\5.4\msvc2010_opengl\include\QtGui /IC:\Qt\Qt5.4.0\5.4\msvc2010_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\TableHub\Zynq\ZynqARM\Application\status.cpp ..\..\Src\bdAboutWidget.cpp ..\..\Src\bdHighPassWidget.cpp ..\..\Src\bdLimiterWidget.cpp ..\..\Src\bdParametricEqualizerWidget.cpp ..\..\Src\bdRecvAudioProcTabWidget.cpp ..\..\Src\bdSerialPort.cpp ..\..\Src\bolide.cpp ..\..\Src\cmdGridWidget.cpp ..\..\Src\comWidget.cpp ..\..\Src\consoleWidget.cpp ..\..\Src\debugWidget.cpp ..\..\Src\ecCommandLogTabWidget.cpp ..\..\Src\ecCommandWidget.cpp ..\..\Src\ecLogWidget.cpp ..\..\Src\fileLoaderDialog.cpp ..\..\Src\fwUpdateWidget.cpp ..\..\Src\main.cpp ..\..\Src\serialPortCl.cpp ..\..\Src\shortIdList.cpp ..\..\Src\updateTrackingDialog.cpp GeneratedFiles\Debug\moc_bdAboutWidget.cpp GeneratedFiles\Debug\moc_bdComboBox.cpp GeneratedFiles\Debug\moc_bdDoubleSpinBox.cpp GeneratedFiles\Debug\moc_bdEnableComboBox.cpp GeneratedFiles\Debug\moc_bdGroupBox.cpp GeneratedFiles\Debug\moc_bdHighPassWidget.cpp GeneratedFiles\Debug\moc_bdLimiterWidget.cpp GeneratedFiles\Debug\moc_bdParametricEqualizerWidget.cpp GeneratedFiles\Debug\moc_bdRecvAudioProcTabWidget.cpp GeneratedFiles\Debug\moc_bdSerialPort.cpp GeneratedFiles\Debug\moc_bdSpinBox.cpp GeneratedFiles\Debug\moc_bolide.cpp GeneratedFiles\Debug\moc_cmdGridWidget.cpp GeneratedFiles\Debug\moc_comWidget.cpp GeneratedFiles\Debug\moc_consoleWidget.cpp GeneratedFiles\Debug\moc_debugWidget.cpp GeneratedFiles\Debug\moc_ecCommandLogTabWidget.cpp GeneratedFiles\Debug\moc_ecCommandWidget.cpp GeneratedFiles\Debug\moc_ecLogWidget.cpp GeneratedFiles\Debug\moc_fileLoaderDialog.cpp GeneratedFiles\Debug\moc_fwUpdateWidget.cpp GeneratedFiles\Debug\moc_updateTrackingDialog.cpp /MP 
+         status.cpp
+         bdAboutWidget.cpp
+         bdHighPassWidget.cpp
+         bdLimiterWidget.cpp
+         bdParametricEqualizerWidget.cpp
+         bdRecvAudioProcTabWidget.cpp
+         bdSerialPort.cpp
+         bolide.cpp
+         cmdGridWidget.cpp
+         comWidget.cpp
+         consoleWidget.cpp
+         debugWidget.cpp
+         ecCommandLogTabWidget.cpp
+         ecCommandWidget.cpp
+         ecLogWidget.cpp
+         fileLoaderDialog.cpp
+         fwUpdateWidget.cpp
+         main.cpp
+         serialPortCl.cpp
+         shortIdList.cpp
+         updateTrackingDialog.cpp
+         moc_bdAboutWidget.cpp
+         moc_bdComboBox.cpp
+         moc_bdDoubleSpinBox.cpp
+         moc_bdEnableComboBox.cpp
+         moc_bdGroupBox.cpp
+         moc_bdHighPassWidget.cpp
+         moc_bdLimiterWidget.cpp
+         moc_bdParametricEqualizerWidget.cpp
+         moc_bdRecvAudioProcTabWidget.cpp
+         moc_bdSerialPort.cpp
+         moc_bdSpinBox.cpp
+         moc_bolide.cpp
+         moc_cmdGridWidget.cpp
+         moc_comWidget.cpp
+         moc_consoleWidget.cpp
+         moc_debugWidget.cpp
+         moc_ecCommandLogTabWidget.cpp
+         moc_ecCommandWidget.cpp
+         moc_ecLogWidget.cpp
+         moc_fileLoaderDialog.cpp
+         moc_fwUpdateWidget.cpp
+         moc_updateTrackingDialog.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\..\..\..\TableHub\Zynq\ZynqARM\ThirdPartyLib\ASDSP /IC:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\..\..\..\TableHub\Zynq\ZynqARM\ThirdPartyLib /IC:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\..\..\..\Utility\FWgenerate /IC:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\..\..\..\TableHub\Zynq\ZynqARM\Application /IC:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\..\..\..\TableHub\Zynq\ZynqARM\CustomDriver /IC:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\..\..\Src\inc /I.\GeneratedFiles /I. /IC:\Qt\Qt5.4.0\5.4\msvc2010_opengl\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.4.0\5.4\msvc2010_opengl\include\QtCore /IC:\Qt\Qt5.4.0\5.4\msvc2010_opengl\include\QtGui /IC:\Qt\Qt5.4.0\5.4\msvc2010_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_bolide.cpp /MP 
+         qrc_bolide.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\Bolide.res" Bolide.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\Win32\Debug\\Bolide.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.4.0\5.4\msvc2010_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Bolide.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\Win32\Debug\Bolide.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\Win32\Debug\Bolide.lib" /MACHINE:X86 Debug\Bolide.res
+         Debug\byte_queue.obj
+         Debug\command_gen_dec.obj
+         Debug\command_queue.obj
+         Debug\status.obj
+         Debug\bdAboutWidget.obj
+         Debug\bdHighPassWidget.obj
+         Debug\bdLimiterWidget.obj
+         Debug\bdParametricEqualizerWidget.obj
+         Debug\bdRecvAudioProcTabWidget.obj
+         Debug\bdSerialPort.obj
+         Debug\bolide.obj
+         Debug\cmdGridWidget.obj
+         Debug\command_parser.obj
+         Debug\comWidget.obj
+         Debug\consoleWidget.obj
+         Debug\debugWidget.obj
+         Debug\ecCommandLogTabWidget.obj
+         Debug\ecCommandWidget.obj
+         Debug\ecLogWidget.obj
+         Debug\fileLoaderDialog.obj
+         Debug\fwUpdateWidget.obj
+         Debug\main.obj
+         Debug\serialPortCl.obj
+         Debug\shortIdList.obj
+         Debug\updateTrackingDialog.obj
+         Debug\moc_bdAboutWidget.obj
+         Debug\moc_bdComboBox.obj
+         Debug\moc_bdDoubleSpinBox.obj
+         Debug\moc_bdEnableComboBox.obj
+         Debug\moc_bdGroupBox.obj
+         Debug\moc_bdHighPassWidget.obj
+         Debug\moc_bdLimiterWidget.obj
+         Debug\moc_bdParametricEqualizerWidget.obj
+         Debug\moc_bdRecvAudioProcTabWidget.obj
+         Debug\moc_bdSerialPort.obj
+         Debug\moc_bdSpinBox.obj
+         Debug\moc_bolide.obj
+         Debug\moc_cmdGridWidget.obj
+         Debug\moc_comWidget.obj
+         Debug\moc_consoleWidget.obj
+         Debug\moc_debugWidget.obj
+         Debug\moc_ecCommandLogTabWidget.obj
+         Debug\moc_ecCommandWidget.obj
+         Debug\moc_ecLogWidget.obj
+         Debug\moc_fileLoaderDialog.obj
+         Debug\moc_fwUpdateWidget.obj
+         Debug\moc_updateTrackingDialog.obj
+         Debug\qrc_bolide.obj
+         Bolide.vcxproj -> C:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\Win32\Debug\Bolide.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\Win32\Debug\\Bolide.exe;#1" /manifest Debug\Bolide.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Bolide.unsuccessfulbuild".
+         Touching "Debug\Bolide.lastbuildstate".
+     1>Done Building Project "C:\Bolide\bolide2017\WindowsFWUpdate\Project\Bolide\Bolide.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:27.19

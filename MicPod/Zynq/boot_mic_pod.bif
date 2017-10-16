@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]./Build/sdk_work/fsbl/Debug/fsbl.elf
+	./Build/sdk_work/mic_pod_hw/mic_pod_design_wrapper.bit
+	./Build/sdk_work/mic_pod_app/Debug/mic_pod_app.elf
+}

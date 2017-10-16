@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1080590667fs"></ZoomStartTime>
+      <ZoomEndTime time="4265590668fs"></ZoomEndTime>
+      <Cursor1Time time="1490591000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="124"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="42" />
+   <wvobject fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/wclk" type="logic">
+      <obj_property name="ElementShortName">wclk</obj_property>
+      <obj_property name="ObjectShortName">wclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/wclk_counter" type="other">
+      <obj_property name="ElementShortName">wclk_counter</obj_property>
+      <obj_property name="ObjectShortName">wclk_counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_send/state_machine" type="array">
+      <obj_property name="ElementShortName">state_machine[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state_machine[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_send/data_byte_0_r" type="array">
+      <obj_property name="ElementShortName">data_byte_0_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_byte_0_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_send/data_valid_0_r" type="logic">
+      <obj_property name="ElementShortName">data_valid_0_r</obj_property>
+      <obj_property name="ObjectShortName">data_valid_0_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_send/data_byte_1_r" type="array">
+      <obj_property name="ElementShortName">data_byte_1_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_byte_1_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_send/data_valid_1_r" type="logic">
+      <obj_property name="ElementShortName">data_valid_1_r</obj_property>
+      <obj_property name="ObjectShortName">data_valid_1_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_send/data_byte_2_r" type="array">
+      <obj_property name="ElementShortName">data_byte_2_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_byte_2_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_send/data_valid_2_r" type="logic">
+      <obj_property name="ElementShortName">data_valid_2_r</obj_property>
+      <obj_property name="ObjectShortName">data_valid_2_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/packet1_bram_s_addr" type="array">
+      <obj_property name="ElementShortName">packet1_bram_s_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">packet1_bram_s_addr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/packet1_bram_s_dout" type="array">
+      <obj_property name="ElementShortName">packet1_bram_s_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">packet1_bram_s_dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/data_byte_0" type="array">
+      <obj_property name="ElementShortName">data_byte_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_byte_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/data_valid_0" type="logic">
+      <obj_property name="ElementShortName">data_valid_0</obj_property>
+      <obj_property name="ObjectShortName">data_valid_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/data_byte_1" type="array">
+      <obj_property name="ElementShortName">data_byte_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_byte_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/data_valid_1" type="logic">
+      <obj_property name="ElementShortName">data_valid_1</obj_property>
+      <obj_property name="ObjectShortName">data_valid_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/data_byte_2" type="array">
+      <obj_property name="ElementShortName">data_byte_2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_byte_2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/data_valid_2" type="logic">
+      <obj_property name="ElementShortName">data_valid_2</obj_property>
+      <obj_property name="ObjectShortName">data_valid_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/packet1_bram_f_clk" type="logic">
+      <obj_property name="ElementShortName">packet1_bram_f_clk</obj_property>
+      <obj_property name="ObjectShortName">packet1_bram_f_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/packet1_bram_f_rst" type="logic">
+      <obj_property name="ElementShortName">packet1_bram_f_rst</obj_property>
+      <obj_property name="ObjectShortName">packet1_bram_f_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/packet1_bram_f_en" type="logic">
+      <obj_property name="ElementShortName">packet1_bram_f_en</obj_property>
+      <obj_property name="ObjectShortName">packet1_bram_f_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/packet1_bram_f_wen" type="array">
+      <obj_property name="ElementShortName">packet1_bram_f_wen[3:0]</obj_property>
+      <obj_property name="ObjectShortName">packet1_bram_f_wen[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/packet1_bram_f_addr" type="array">
+      <obj_property name="ElementShortName">packet1_bram_f_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">packet1_bram_f_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/packet1_bram_f_dout" type="array">
+      <obj_property name="ElementShortName">packet1_bram_f_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">packet1_bram_f_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/packet1_bram_f_din" type="array">
+      <obj_property name="ElementShortName">packet1_bram_f_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">packet1_bram_f_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/packet1_bram_s_clk" type="logic">
+      <obj_property name="ElementShortName">packet1_bram_s_clk</obj_property>
+      <obj_property name="ObjectShortName">packet1_bram_s_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/packet1_bram_s_rst" type="logic">
+      <obj_property name="ElementShortName">packet1_bram_s_rst</obj_property>
+      <obj_property name="ObjectShortName">packet1_bram_s_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/packet1_bram_s_en" type="logic">
+      <obj_property name="ElementShortName">packet1_bram_s_en</obj_property>
+      <obj_property name="ObjectShortName">packet1_bram_s_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/packet1_valid" type="logic">
+      <obj_property name="ElementShortName">packet1_valid</obj_property>
+      <obj_property name="ObjectShortName">packet1_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/packet1_len" type="array">
+      <obj_property name="ElementShortName">packet1_len[15:0]</obj_property>
+      <obj_property name="ObjectShortName">packet1_len[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/packet1_got" type="logic">
+      <obj_property name="ElementShortName">packet1_got</obj_property>
+      <obj_property name="ObjectShortName">packet1_got</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/wea" type="array">
+      <obj_property name="ElementShortName">wea[0:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/addra" type="array">
+      <obj_property name="ElementShortName">addra[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dina" type="array">
+      <obj_property name="ElementShortName">dina[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/packet_to_send" type="array">
+      <obj_property name="ElementShortName">packet_to_send[31:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">packet_to_send[31:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/counter_byte" type="other">
+      <obj_property name="ElementShortName">counter_byte</obj_property>
+      <obj_property name="ObjectShortName">counter_byte</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/AUDIO_CHANNELS" type="other">
+      <obj_property name="ElementShortName">AUDIO_CHANNELS</obj_property>
+      <obj_property name="ObjectShortName">AUDIO_CHANNELS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/CLK_FREQ" type="other">
+      <obj_property name="ElementShortName">CLK_FREQ</obj_property>
+      <obj_property name="ObjectShortName">CLK_FREQ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/WCLK_RATIO" type="other">
+      <obj_property name="ElementShortName">WCLK_RATIO</obj_property>
+      <obj_property name="ObjectShortName">WCLK_RATIO</obj_property>
+   </wvobject>
+</wave_config>

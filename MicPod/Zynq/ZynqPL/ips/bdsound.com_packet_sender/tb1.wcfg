@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="275000000000fs"></ZoomStartTime>
+      <ZoomEndTime time="597500000001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="51" />
+   <wvobject fp_name="/tb2/wclk_in" type="logic">
+      <obj_property name="ElementShortName">wclk_in</obj_property>
+      <obj_property name="ObjectShortName">wclk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/wclk_out" type="logic">
+      <obj_property name="ElementShortName">wclk_out</obj_property>
+      <obj_property name="ObjectShortName">wclk_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/dout" type="logic">
+      <obj_property name="ElementShortName">dout</obj_property>
+      <obj_property name="ObjectShortName">dout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/rx_data_byte_0" type="array">
+      <obj_property name="ElementShortName">rx_data_byte_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data_byte_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/rx_data_valid_0" type="logic">
+      <obj_property name="ElementShortName">rx_data_valid_0</obj_property>
+      <obj_property name="ObjectShortName">rx_data_valid_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/rx_data_byte_1" type="array">
+      <obj_property name="ElementShortName">rx_data_byte_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data_byte_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/rx_data_valid_1" type="logic">
+      <obj_property name="ElementShortName">rx_data_valid_1</obj_property>
+      <obj_property name="ObjectShortName">rx_data_valid_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/rx_data_byte_2" type="array">
+      <obj_property name="ElementShortName">rx_data_byte_2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data_byte_2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/rx_data_valid_2" type="logic">
+      <obj_property name="ElementShortName">rx_data_valid_2</obj_property>
+      <obj_property name="ObjectShortName">rx_data_valid_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/tx_data_byte_0" type="array">
+      <obj_property name="ElementShortName">tx_data_byte_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data_byte_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/tx_data_valid_0" type="logic">
+      <obj_property name="ElementShortName">tx_data_valid_0</obj_property>
+      <obj_property name="ObjectShortName">tx_data_valid_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/tx_data_byte_1" type="array">
+      <obj_property name="ElementShortName">tx_data_byte_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data_byte_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/tx_data_valid_1" type="logic">
+      <obj_property name="ElementShortName">tx_data_valid_1</obj_property>
+      <obj_property name="ObjectShortName">tx_data_valid_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/tx_data_byte_2" type="array">
+      <obj_property name="ElementShortName">tx_data_byte_2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data_byte_2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/tx_data_valid_2" type="logic">
+      <obj_property name="ElementShortName">tx_data_valid_2</obj_property>
+      <obj_property name="ObjectShortName">tx_data_valid_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/data_byte_0" type="array">
+      <obj_property name="ElementShortName">data_byte_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_byte_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/data_valid_0" type="logic">
+      <obj_property name="ElementShortName">data_valid_0</obj_property>
+      <obj_property name="ObjectShortName">data_valid_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/data_byte_1" type="array">
+      <obj_property name="ElementShortName">data_byte_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_byte_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/data_valid_1" type="logic">
+      <obj_property name="ElementShortName">data_valid_1</obj_property>
+      <obj_property name="ObjectShortName">data_valid_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/data_byte_2" type="array">
+      <obj_property name="ElementShortName">data_byte_2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_byte_2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/data_valid_2" type="logic">
+      <obj_property name="ElementShortName">data_valid_2</obj_property>
+      <obj_property name="ObjectShortName">data_valid_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/packet1_bram_s_clk" type="logic">
+      <obj_property name="ElementShortName">packet1_bram_s_clk</obj_property>
+      <obj_property name="ObjectShortName">packet1_bram_s_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/packet1_bram_s_rst" type="logic">
+      <obj_property name="ElementShortName">packet1_bram_s_rst</obj_property>
+      <obj_property name="ObjectShortName">packet1_bram_s_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/packet1_bram_s_en" type="logic">
+      <obj_property name="ElementShortName">packet1_bram_s_en</obj_property>
+      <obj_property name="ObjectShortName">packet1_bram_s_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/packet1_bram_s_addr" type="array">
+      <obj_property name="ElementShortName">packet1_bram_s_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">packet1_bram_s_addr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/packet1_bram_s_dout" type="array">
+      <obj_property name="ElementShortName">packet1_bram_s_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">packet1_bram_s_dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/packet1_valid" type="logic">
+      <obj_property name="ElementShortName">packet1_valid</obj_property>
+      <obj_property name="ObjectShortName">packet1_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/packet1_len" type="array">
+      <obj_property name="ElementShortName">packet1_len[15:0]</obj_property>
+      <obj_property name="ObjectShortName">packet1_len[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/packet1_got" type="logic">
+      <obj_property name="ElementShortName">packet1_got</obj_property>
+      <obj_property name="ObjectShortName">packet1_got</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/AUDIO_CHANNELS" type="other">
+      <obj_property name="ElementShortName">AUDIO_CHANNELS</obj_property>
+      <obj_property name="ObjectShortName">AUDIO_CHANNELS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/CLK_FREQ" type="other">
+      <obj_property name="ElementShortName">CLK_FREQ</obj_property>
+      <obj_property name="ObjectShortName">CLK_FREQ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/CLK_FREQ_1" type="other">
+      <obj_property name="ElementShortName">CLK_FREQ_1</obj_property>
+      <obj_property name="ObjectShortName">CLK_FREQ_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/CLK_FREQ_2" type="other">
+      <obj_property name="ElementShortName">CLK_FREQ_2</obj_property>
+      <obj_property name="ObjectShortName">CLK_FREQ_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/clk_period_tx" type="other">
+      <obj_property name="ElementShortName">clk_period_tx</obj_property>
+      <obj_property name="ObjectShortName">clk_period_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/clk_period_rx" type="other">
+      <obj_property name="ElementShortName">clk_period_rx</obj_property>
+      <obj_property name="ObjectShortName">clk_period_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/WCLK_RATIO" type="other">
+      <obj_property name="ElementShortName">WCLK_RATIO</obj_property>
+      <obj_property name="ObjectShortName">WCLK_RATIO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_2_f/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_2_f/rsta" type="logic">
+      <obj_property name="ElementShortName">rsta</obj_property>
+      <obj_property name="ObjectShortName">rsta</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_2_f/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_2_f/wea" type="array">
+      <obj_property name="ElementShortName">wea[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wea[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_2_f/addra" type="array">
+      <obj_property name="ElementShortName">addra[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_2_f/dina" type="array">
+      <obj_property name="ElementShortName">dina[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_2_f/douta" type="array">
+      <obj_property name="ElementShortName">douta[31:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_2_f/clkb" type="logic">
+      <obj_property name="ElementShortName">clkb</obj_property>
+      <obj_property name="ObjectShortName">clkb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_2_f/rstb" type="logic">
+      <obj_property name="ElementShortName">rstb</obj_property>
+      <obj_property name="ObjectShortName">rstb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_2_f/enb" type="logic">
+      <obj_property name="ElementShortName">enb</obj_property>
+      <obj_property name="ObjectShortName">enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_2_f/web" type="array">
+      <obj_property name="ElementShortName">web[3:0]</obj_property>
+      <obj_property name="ObjectShortName">web[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_2_f/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_2_f/dinb" type="array">
+      <obj_property name="ElementShortName">dinb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dinb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb2/block_ram_2_f/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[31:0]</obj_property>
+   </wvobject>
+</wave_config>

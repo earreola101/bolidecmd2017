@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="8732127054000fs"></ZoomStartTime>
+      <ZoomEndTime time="8738367054001fs"></ZoomEndTime>
+      <Cursor1Time time="8734132914000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="165"></NameColumnWidth>
+      <ValueColumnWidth column_width="229"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/valid_in" type="logic">
+      <obj_property name="ElementShortName">valid_in</obj_property>
+      <obj_property name="ObjectShortName">valid_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/word_in" type="array">
+      <obj_property name="ElementShortName">word_in[4:0]</obj_property>
+      <obj_property name="ObjectShortName">word_in[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/wclk_out" type="logic">
+      <obj_property name="ElementShortName">wclk_out</obj_property>
+      <obj_property name="ObjectShortName">wclk_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/write_out" type="logic">
+      <obj_property name="ElementShortName">write_out</obj_property>
+      <obj_property name="ObjectShortName">write_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/channel" type="array">
+      <obj_property name="ElementShortName">channel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">channel[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/data" type="array">
+      <obj_property name="ElementShortName">data[27:0]</obj_property>
+      <obj_property name="ObjectShortName">data[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/valid_in_r" type="array">
+      <obj_property name="ElementShortName">valid_in_r[1:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_in_r[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/word_in_r" type="array">
+      <obj_property name="ElementShortName">word_in_r[9:0]</obj_property>
+      <obj_property name="ObjectShortName">word_in_r[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/sync_detect" type="logic">
+      <obj_property name="ElementShortName">sync_detect</obj_property>
+      <obj_property name="ObjectShortName">sync_detect</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/aligned" type="logic">
+      <obj_property name="ElementShortName">aligned</obj_property>
+      <obj_property name="ObjectShortName">aligned</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/symbol" type="array">
+      <obj_property name="ElementShortName">symbol[4:0]</obj_property>
+      <obj_property name="ObjectShortName">symbol[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/index_sequence" type="other">
+      <obj_property name="ElementShortName">index_sequence</obj_property>
+      <obj_property name="ObjectShortName">index_sequence</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/index_sequence_r" type="other">
+      <obj_property name="ElementShortName">index_sequence_r</obj_property>
+      <obj_property name="ObjectShortName">index_sequence_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/nibble" type="array">
+      <obj_property name="ElementShortName">nibble[3:0]</obj_property>
+      <obj_property name="ObjectShortName">nibble[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/nibble_rst" type="logic">
+      <obj_property name="ElementShortName">nibble_rst</obj_property>
+      <obj_property name="ObjectShortName">nibble_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/nibble_clk" type="logic">
+      <obj_property name="ElementShortName">nibble_clk</obj_property>
+      <obj_property name="ObjectShortName">nibble_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/nibble_cnt" type="array">
+      <obj_property name="ElementShortName">nibble_cnt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">nibble_cnt[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/nibble_buffer" type="array">
+      <obj_property name="ElementShortName">nibble_buffer[5:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">nibble_buffer[5:0][3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/channel_cnt" type="array">
+      <obj_property name="ElementShortName">channel_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">channel_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/channel_rst" type="logic">
+      <obj_property name="ElementShortName">channel_rst</obj_property>
+      <obj_property name="ObjectShortName">channel_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/write_buffer" type="logic">
+      <obj_property name="ElementShortName">write_buffer</obj_property>
+      <obj_property name="ObjectShortName">write_buffer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/wordclk_shift" type="array">
+      <obj_property name="ElementShortName">wordclk_shift[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wordclk_shift[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/wordclk_count" type="array">
+      <obj_property name="ElementShortName">wordclk_count[12:0]</obj_property>
+      <obj_property name="ObjectShortName">wordclk_count[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/wordclk_current" type="array">
+      <obj_property name="ElementShortName">wordclk_current[11:0]</obj_property>
+      <obj_property name="ObjectShortName">wordclk_current[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/wordclk_reference" type="array">
+      <obj_property name="ElementShortName">wordclk_reference[24:0]</obj_property>
+      <obj_property name="ObjectShortName">wordclk_reference[24:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/write_buffer_r" type="logic">
+      <obj_property name="ElementShortName">write_buffer_r</obj_property>
+      <obj_property name="ObjectShortName">write_buffer_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/chA" type="array">
+      <obj_property name="ElementShortName">chA[23:0]</obj_property>
+      <obj_property name="ObjectShortName">chA[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/chB" type="array">
+      <obj_property name="ElementShortName">chB[23:0]</obj_property>
+      <obj_property name="ObjectShortName">chB[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut_rx/input_decoder_inst/JK" type="array">
+      <obj_property name="ElementShortName">JK[4:0]</obj_property>
+      <obj_property name="ObjectShortName">JK[4:0]</obj_property>
+   </wvobject>
+</wave_config>

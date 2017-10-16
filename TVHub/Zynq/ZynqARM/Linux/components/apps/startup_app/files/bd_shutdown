@@ -1,0 +1,9 @@
+#!/bin/sh
+set -x
+echo "bdSound shutdown script begin"
+
+sync
+
+#echo "umount eMMC"
+#umount /dev/mmcblk0p1 /home/root/mnt/
+echo "bdSound shutdown script end"

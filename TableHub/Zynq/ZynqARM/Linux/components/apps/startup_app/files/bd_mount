@@ -1,0 +1,8 @@
+#!/bin/sh
+set -x
+
+echo "mount SD"
+mkdir /media/BOOT
+mkdir /media/rootfs
+mount /dev/mmcblk0p1 /media/BOOT
+mount /dev/mmcblk0p2 /media/rootfs

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Bolide">
+        <file>images/bolide.jpg</file>
+        <file>images/bolide.png</file>
+    </qresource>
+</RCC>

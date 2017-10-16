@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]./Build/sdk_work/fsbl/Debug/fsbl.elf
+	./Build/sdk_work/splitter_hw/splitter_design_wrapper.bit
+	./Build/sdk_work/splitter_app/Debug/splitter_app.elf
+}
