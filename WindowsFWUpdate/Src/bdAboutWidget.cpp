@@ -43,7 +43,7 @@ bdAboutWidget::bdAboutWidget(QWidget *parent)
 
 	QString version;
 	version.append("Version ");
-	version.append(QString::number(SW_VERSION));
+	//version.append(QString::number(SW_VERSION));
 
 	versionLabel->setText(version);
 

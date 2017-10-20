@@ -1,0 +1,21 @@
+﻿Build started 10/17/2017 1:54:44 PM.
+     1>Project "C:\Bolide\bolidecmd2017\WindowsFWUpdatecmd\Project\bolidecmd\bolidecmd.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(170,5): warning MSB8017: A circular dependency has been detected while executing custom build commands for item "GeneratedFiles\Debug\bolideCmdAccess.moc". This may cause incremental build to work incorrectly.
+         Moc'ing bolideCmdAccess.cpp...
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Bolide\bolidecmd2017\WindowsFWUpdatecmd\Project\bolidecmd\..\..\..\TableHub\Zynq\ZynqARM\ThirdPartyLib\ASDSP /IC:\Bolide\bolidecmd2017\WindowsFWUpdatecmd\Project\bolidecmd\..\..\..\TableHub\Zynq\ZynqARM\ThirdPartyLib /IC:\Bolide\bolidecmd2017\WindowsFWUpdatecmd\Project\bolidecmd\..\..\..\Utility\FWgenerate /IC:\Bolide\bolidecmd2017\WindowsFWUpdatecmd\Project\bolidecmd\..\..\..\TableHub\Zynq\ZynqARM\Application /IC:\Bolide\bolidecmd2017\WindowsFWUpdatecmd\Project\bolidecmd\..\..\..\TableHub\Zynq\ZynqARM\CustomDriver /IC:\Bolide\bolidecmd2017\WindowsFWUpdatecmd\Project\bolidecmd\..\..\Src\inc /I.\GeneratedFiles /I. /IC:\Qt\Qt5.4.0\5.4\msvc2010_opengl\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.4.0\5.4\msvc2010_opengl\include\QtCore /IC:\Qt\Qt5.4.0\5.4\msvc2010_opengl\include\QtGui /IC:\Qt\Qt5.4.0\5.4\msvc2010_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_bdSerialPort.cpp bolideCmdAccess.cpp main.cpp
+         moc_bdSerialPort.cpp
+         bolideCmdAccess.cpp
+         main.cpp
+         Generating Code...
+     1>c:\bolide\bolidecmd2017\windowsfwupdatecmd\project\bolidecmd\main.cpp(8): warning C4700: uninitialized local variable 'bolideAcc' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Bolide\bolidecmd2017\WindowsFWUpdate\Project\Bolide\Win32\Debug\\bolidecmd.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.4.0\5.4\msvc2010_opengl\lib qtmaind.lib Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Bolide\bolidecmd2017\WindowsFWUpdate\Project\Bolide\Win32\Debug\bolidecmd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Bolide\bolidecmd2017\WindowsFWUpdate\Project\Bolide\Win32\Debug\bolidecmd.lib" /MACHINE:X86 /SAFESEH Debug\bolideCmdAccess.obj
+         Debug\moc_bdSerialPort.obj
+         Debug\main.obj
+         bolidecmd.vcxproj -> C:\Bolide\bolidecmd2017\WindowsFWUpdate\Project\Bolide\Win32\Debug\bolidecmd.exe
+     1>Done Building Project "C:\Bolide\bolidecmd2017\WindowsFWUpdatecmd\Project\bolidecmd\bolidecmd.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.04
